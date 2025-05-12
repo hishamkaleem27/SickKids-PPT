@@ -7,7 +7,7 @@ import os
 
 def summaryGenerate(prompt,complexity):
   co = cohere.Client(
-      #api_key =
+      #api_key = HIDDEN
   )
   complexityInt = int(complexity)
   complexity_append = ""
